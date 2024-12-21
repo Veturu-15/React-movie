@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Homemov />} />
+        <Route path="/React-movie" element={<Homemov />} />
         <Route path='/home/:title' element={<Pspk />} /> 
         <Route path='/top/:title' element={<Top />} />  
         <Route path='/top' element={<TopRating />} />
