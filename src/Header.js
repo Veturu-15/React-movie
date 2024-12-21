@@ -14,7 +14,7 @@ function Header() {
       <nav className="nav">
         <p className="logo">MovieDb</p>
         <div className={`nav-items ${menuOpen ? 'active' : ''}`}>
-          <Link to="/"> <p className="nav-item">Popular</p></Link>
+          <Link to="/React-movie"> <p className="nav-item">Popular</p></Link>
           <Link to="/top"> <p className="nav-item">Top Rated</p></Link>
           <Link to="/up"> <p className="nav-item">Upcoming</p></Link>
           <div className="search-container">
