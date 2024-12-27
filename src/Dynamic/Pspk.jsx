@@ -12,11 +12,7 @@ function Pspk() {
         {movie ? (
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex flex-col items-center md:items-start">
-              <img 
-                src={movie.Image}  
-                alt={movie.title} 
-                className="h-48 rounded-lg object-cover mb-4 md:mb-0"
-              />
+              <img src={movie.Image}  alt={movie.title} className="h-48 rounded-lg object-cover mb-4 md:mb-0"/>
               <h1 className="text-3xl font-bold">{movie.title}</h1>
               <p className="text-lg">Rating: {movie.Rating}</p>
               <p className="text-lg">{movie.Duration} {movie.type}</p>
@@ -25,19 +21,11 @@ function Pspk() {
               <p className="text-sm">{movie.overview}</p>
             </div>
             <div>
-              <img 
-                src={movie.image}  
-                alt={movie.title} 
-                className="h-96 w-full rounded-lg object-cover"
-              />
+              <img   src={movie.image}  alt={movie.title} className="h-96 w-full rounded-lg object-cover" />
             </div>
             <div className="flex flex-wrap gap-4 justify-center">
               <div className="flex flex-col items-center">
-                <img 
-                  src={movie.heroimg} 
-                  alt={movie.Heroname} 
-                  className="w-32 h-32 object-Fullcover  mb-2"
-                />
+                <img src={movie.heroimg} alt={movie.Heroname} className="w-32 h-32 object-Fullcover  mb-2"/>
                 <p className="text-lg font-semibold">{movie.Heroname}</p>
                 <p className="text-sm">{movie.herocharaname}</p>
               </div>
